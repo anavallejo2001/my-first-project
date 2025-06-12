@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+}
+
+.link {
+    margin: 50px;
+    display: inline-block;
+    background-color: slateblue;
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 2em;
+}
+
+button {
+    background-color: pink;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#selecionar-mascota {
+    background-color: rgb(185, 120, 229);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.marcos-redondos {
+    border-radius: 10px;
+    border: 2px solid rgb(223, 73, 193);
+    padding: 10px;
+}
+
+#selecionar-ataque {
+    background-color: rgb(185, 120, 229);
+}
+
+#mensajes {
+    background-color: rgb(185, 120, 229);
+}
+
+#reiniciar-juego {
+    background-color: rgb(185, 120, 229);
+}
+
+h1 {
+    color: rgb(10, 4, 9);
+    text-align: center;
+    background-color: rgb(185, 120, 229);
+}
+
+.reiniciarContenedor {
+    padding: 5px; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utd-8" />
+    <title>Juego 2 </title>
+    <script src="./js/Pokemos.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/Pokemon.css" type="text/css" />
+
+</head>
+
+<body>
+    <h1>Pokemon! 🔥🌱💧</h1> 
+
+    <section id="selecionar-mascota" class="marcos-redondos">
+        <h2>Elige tu mascota:</h2>
+
+        <button id="boton-mascota"> Selecionar</button>
+
+        <label for="hipodogue">Hipodogue </label>
+        <input type="radio" name=" mascota" id="hipodogue" />
+
+        <label for="capipego "> Capipego </label>
+        <input type="radio" name=" mascota" id="capipego" />
+
+        </label for="ratigueya">Ratigueya</label>
+        <input type="radio" name=" mascota" id="ratigueya" />
+
+    </section>
+
+
+    <section id="selecionar-ataque" class="marcos-redondos"> 
+
+        <h2>Elige tu ataque:</h2>
+
+        <p> Tu mascota <span id="mascota-Jugador"></span> tiene <span id= "vidas-jugador" >3</span> vidas</p>
+        <p> La mascota <span id="mascota-enemigo" ></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>        
+
+        <span class = "marcos-redondos"> 
+    
+            <button id="boton-Fuego"> Fuego🔥</button>
+            <button id="boton-Agua"> Agua💧</button>
+            <button id="boton-Tierra"> Tierra🌱</button>
+            
+            
+        </span>
+
+    </section>
+    <section id="mensajes" class="marcos-redondos">
+        <h2>Mensajes</h2>
+
+    </section>
+
+    <section id="reiniciar-juego" class="marcos-redondos">
+        <h2>¿Quieres reiniciar el juego?</h2>
+
+        <span id="resultado" class="marcos-redondos reiniciarContenedor">
+            <button id="boton-reiniciar"> Reiniciar </button>
+        </span>
+    </section>
+
+</body>
+
+</html>
