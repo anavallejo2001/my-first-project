@@ -107,22 +107,35 @@ alt="Mapa conceptual clases">
 **flexbox & Grid**
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*5WxLCnuAebfk11AyktuOew.png"> 
 
+
 _When to use Flexbox:_
 - When you want to align elements in a single direction (a row or a column).
 
 - When you’re working with a single line of content (for example, horizontally aligned buttons).
 
 - When you want to distribute space between elements or center them easily.
+
  
-<img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-f770-61f7-b658-e3649a05c79b/raw?se=2025-06-16T22%3A43%3A13Z&sp=r&sv=2024-08-04&sr=b&scid=06a5e14d-f704-55c4-8ece-39aa9f787021&skoid=9ccea605-1409-4478-82eb-9c83b25dc1b0&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-16T21%3A09%3A50Z&ske=2025-06-17T21%3A09%3A50Z&sks=b&skv=2024-08-04&sig=J%2BACD2fyHYjiJ5tX9Uwe/NcCTrZqxUSKXnbIByR%2BhqI%3D">
+<img src="https://www.bitdegree.org/learn/storage/media/images/021b9481-34b8-4d10-aa24-5b1a9d2b23c3.o.png"> 
+
 
 _When to use Grid_
 - When you need to create structures in rows and columns (like a table or a page layout).
 
 - When you want more control over the overall design.
 
-- When your layout looks like a grid (grid = lattice).
+- When your layout looks like a grid.
 
          Real life examples for when to use Grid 
-<img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-b330-61f7-a3f2-591b98c44185/raw?se=2025-06-16T22%3A58%3A58Z&sp=r&sv=2024-08-04&sr=b&scid=23560f3b-4bb5-55d6-92fe-10f21e826695&skoid=9ccea605-1409-4478-82eb-9c83b25dc1b0&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-16T11%3A46%3A26Z&ske=2025-06-17T11%3A46%3A26Z&sks=b&skv=2024-08-04&sig=V1U%2B3ZyQ75BxSQTXT3IEe0RaSSC2JeURnqpFMvgvFLs%3D">
+<img src="https://i.pinimg.com/originals/d3/21/64/d32164c2442b88e1d8834677c48fb227.jpg">
+
+_Diference between them:_
+ - The most important thing to know as you're figuring out CSS Grid layouts vs. Flexbox, is that Flexbox is **one-dimensional**, while CSS Grid is **two-dimensional**.
+
+ | Flexbox | Grid |
+ |---------|----------|
+ |Flexbox treats each row or column as a separate entity, based on its content and the available space | Grid lets you work along two axes: horizontally and vertically. Grid allows you to create two-dimensional layouts where you can precisely place grid items into cells defined by rows and columns.|
+ | In flexbox, most of the layout (beyond the very basics) happen on the children. | Grid is mostly defined on the parent element.|
+ |Flexbox can push things away. It’s a rather unique feature of flexbox that you can, for example, put margin-right: auto; on an element and, if there is room, that element will push everything else as far away as it can go can. | Grid is better at overlapping. Getting elements to overlap in flexbox requires looking at traditional stuff, like negative margins, transforms, or absolute positioning in order to break out of the flex behavior. With grid, we can place items on overlapping grid lines, or even right within the same exact grid cells.| 
+ 
 
